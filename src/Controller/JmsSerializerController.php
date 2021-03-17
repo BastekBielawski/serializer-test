@@ -14,7 +14,7 @@ class JmsSerializerController
      */
     public function serializeAction(): Response
     {
-        return new JsonResponse();
+        return new JsonResponse('fwfwfe');
     }
 
     /**
@@ -22,6 +22,6 @@ class JmsSerializerController
      */
     public function deserializeAction(): Response
     {
-        return new JsonResponse();
+        return new JsonResponse('wwwefwef');
     }
 }
